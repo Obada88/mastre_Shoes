@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    font-size: 68.68%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+/*====================== Start Navbar =====================*/
+.nav-link{
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    color: #000 ;
+    transition: 0.5s ease-in-out;
+}
+.nav-link:hover{
+    color: red !important;
+}
+/*====================== End Navbar =====================*/
+
+/*====================== Start  Home =====================*/
+
+.box-img-Home img{
+    max-width: 100%;
+    transform: rotate(340deg);
+    width: 500px;
+}
+.box-content-Home h3{
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+.box-content-Home p{
+    font-size: 1.1rem;
+   
+}
+/*====================== End Home =====================*/
+
+/*====================== Start Features =====================*/
+
+.box-features{
+    margin-top: 1.5rem;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    border-radius: 5px;
+    transition: 0.5s;
+    position: relative;
+}
+.box-features:hover{
+    transform: translateY(1rem);
+}
+.box-features-img img{
+    max-width: 100%;
+}
+.box-features-content{
+    margin: 1rem;
+}
+.box-features-content a{
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.price{
+    text-align: center;
+    margin-top: 1rem;
+}
+.discont{
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.3rem;
+    left: 0;
+    top: 1rem;
+    margin: 1rem;
+    transform: rotate(-90deg);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.box-img-Nike img{
+    max-width: 100%;
+}
+.box-collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+.box-Nike{
+    background-color: #ddd;
+    padding: 1rem;
+    border-radius: 2px;
+}
+.box-Nike-content{
+    text-align: start;
+}
+.box-Nike-content h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.box-Nike-content a{
+    color: #000;
+    font-size: 1rem;
+}
+/*====================== End  Features =====================*/
+
+/*====================== End  Wemon =====================*/
+.title-wemon{
+    position: relative;
+}
+.title-wemon::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background: #000;
+    top: -0.5rem;
+    font-size: 1.5rem;
+    left: 45.5%;
+}
+.box-wemon-img{
+    transform: rotate(-30deg);
+}
+
+/*====================== End  Wemon =====================*/
+
+
+/*====================== End  Shop =====================*/
+.box-shope-img{
+    transform: rotate(-30deg);
+}
+/*====================== End  Shop =====================*/
+
+
+/*====================== Start Footer =====================*/
+.box-footer-icon i{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+/*====================== End  Footer =====================*/
+
+
+.up{
+font-size: 1.5rem;    
+}
